@@ -1,24 +1,21 @@
 ---
 name: Reddit
 x-slug: reddit
-description: Reddit /??r??d?t/, stylized as reddit, is an entertainment, social networking
-  service and news website where registered community members can submit content,
-  such as text posts or direct links. Only registered users can then vote submissions
-  up or down to organize the posts and determine their position on the sites pages.
-  Content entries are organized by areas of interest called subreddits.
-image: http://www.redditstatic.com/about/assets/reddit-logo.png
+description: Reddit is a community of millions of users engaging in the creation of
+  content and the sharing of conversation across tens of thousands of topics.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "6"
 tags: About
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Reddit Get Subreddit About Log
   x-api-slug: reddit
   description: Get a list of recent moderation actions.
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com///{/r/subreddit}/about/log
   tags: Subreddit, About, Log
@@ -30,7 +27,7 @@ apis:
 - name: Reddit Get Subreddit About Location
   x-api-slug: reddit
   description: Return a listing of posts relevant to moderators.
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com///{/r/subreddit}/about/location
   tags: Subreddit, About, Location
@@ -42,7 +39,7 @@ apis:
 - name: Reddit Get Subreddit About Where
   x-api-slug: reddit
   description: This endpoint is a listing.
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com///{/r/subreddit}/about/where
   tags: Subreddit, About, Where
@@ -54,7 +51,7 @@ apis:
 - name: Reddit Get Subreddit About
   x-api-slug: reddit
   description: Return information about the subreddit.
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com////r/subreddit/about
   tags: Subreddit, About
@@ -66,7 +63,7 @@ apis:
 - name: Reddit Get Subreddit About Edit
   x-api-slug: reddit
   description: Get the current settings of a subreddit.
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com////r/subreddit/about/edit
   tags: Subreddit, About, Edit
@@ -78,7 +75,7 @@ apis:
 - name: Reddit Get Subreddit About Rules
   x-api-slug: reddit
   description: Get the rules for the current subreddit
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com////r/subreddit/about/rules
   tags: Subreddit, About, Rules
@@ -88,7 +85,7 @@ apis:
 - name: Reddit Get Subreddit About Traffic
   x-api-slug: reddit
   description: Get the traffic for the current subreddit
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com////r/subreddit/about/traffic
   tags: Subreddit, About, Traffic
@@ -97,12 +94,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditabouttraffic-getnbsp-openapi.md
 - name: Reddit
   x-api-slug: reddit
-  description: Reddit /??r??d?t/, stylized as reddit, is an entertainment, social
-    networking service and news website where registered community members can submit
-    content, such as text posts or direct links. Only registered users can then vote
-    submissions up or down to organize the posts and determine their position on the
-    sites pages. Content entries are organized by areas of interest called subreddits.
-  image: http://www.redditstatic.com/about/assets/reddit-logo.png
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
   baseURL: https://www.reddit.com//
   tags: About
@@ -126,8 +120,12 @@ x-common:
   url: https://github.com/reddit/reddit/wiki/API-Wrappers
 - type: x-console
   url: https://apigee.com/console/reddit
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/reddit
 - type: x-developer
   url: http://www.reddit.com/dev/api
+- type: x-email
+  url: legal@reddit.com
 - type: x-github
   url: https://github.com/reddit
 - type: x-privacy
