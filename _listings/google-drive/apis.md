@@ -10,18 +10,19 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: About
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/google-drive/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Drive Get About
+- name: Google Drive
   x-api-slug: google-drive
-  description: Gets information about the user, the user's Drive, and system capabilities.
+  description: manages-files-in-drive-including-uploading-downloading-searching-detecting-changes-and-updating-sharing-permissions-
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png
   humanURL: https://developers.google.com/drive/
-  baseURL: https://www.googleapis.com//drive/v3//about
-  tags: About
+  baseURL: https://www.googleapis.com//drive/v3
+  tags: Documents, Storage, Google APIs, Stack Network, Stack, Productivity, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/google-drive/about-get-postman.md
@@ -42,6 +43,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/google-drive/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.doubleclick.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.drive.stack.network
 - type: x-best-practices
   url: https://developers.google.com/drive/v3/web/practices
 - type: x-branding-guidelines

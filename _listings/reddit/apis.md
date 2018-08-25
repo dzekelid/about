@@ -7,89 +7,185 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddi
 x-kinRank: "9"
 x-alexaRank: "6"
 tags: About
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Reddit Get Subreddit About Log
+- name: Reddit
   x-api-slug: reddit
-  description: Get a list of recent moderation actions.
+  description: the-reddit-api-allows-you-to-access-the-user-submitted-and-rated-stories-on-reddit-com--it-also-provides-advanced-functionality-including-user-account-information-and-subreddit-moderation-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com///{/r/subreddit}/about/log
-  tags: Subreddit, About, Log
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-openapi.md
-- name: Reddit Get Subreddit About Location
+- name: Reddit
   x-api-slug: reddit
-  description: Return a listing of posts relevant to moderators.
+  description: the-reddit-api-allows-you-to-access-the-user-submitted-and-rated-stories-on-reddit-com--it-also-provides-advanced-functionality-including-user-account-information-and-subreddit-moderation-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com///{/r/subreddit}/about/location
-  tags: Subreddit, About, Location
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlocation-getnbsp-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlocation-getnbsp-openapi.md
-- name: Reddit Get Subreddit About Where
+- name: Reddit
   x-api-slug: reddit
-  description: This endpoint is a listing.
+  description: the-reddit-api-allows-you-to-access-the-user-submitted-and-rated-stories-on-reddit-com--it-also-provides-advanced-functionality-including-user-account-information-and-subreddit-moderation-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com///{/r/subreddit}/about/where
-  tags: Subreddit, About, Where
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlocation-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlocation-getnbsp-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutwhere-getnbsp-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutwhere-getnbsp-openapi.md
-- name: Reddit Get Subreddit About
+- name: Reddit
   x-api-slug: reddit
-  description: Return information about the subreddit.
+  description: the-reddit-api-allows-you-to-access-the-user-submitted-and-rated-stories-on-reddit-com--it-also-provides-advanced-functionality-including-user-account-information-and-subreddit-moderation-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com////r/subreddit/about
-  tags: Subreddit, About
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlocation-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlocation-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutwhere-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutwhere-getnbsp-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditabout-getnbsp-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditabout-getnbsp-openapi.md
-- name: Reddit Get Subreddit About Edit
+- name: Reddit
   x-api-slug: reddit
-  description: Get the current settings of a subreddit.
+  description: the-reddit-api-allows-you-to-access-the-user-submitted-and-rated-stories-on-reddit-com--it-also-provides-advanced-functionality-including-user-account-information-and-subreddit-moderation-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com////r/subreddit/about/edit
-  tags: Subreddit, About, Edit
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlocation-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlocation-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutwhere-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutwhere-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditabout-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditabout-getnbsp-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutedit-getnbsp-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutedit-getnbsp-openapi.md
-- name: Reddit Get Subreddit About Rules
+- name: Reddit
   x-api-slug: reddit
-  description: Get the rules for the current subreddit
+  description: the-reddit-api-allows-you-to-access-the-user-submitted-and-rated-stories-on-reddit-com--it-also-provides-advanced-functionality-including-user-account-information-and-subreddit-moderation-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com////r/subreddit/about/rules
-  tags: Subreddit, About, Rules
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlocation-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlocation-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutwhere-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutwhere-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditabout-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditabout-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutedit-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutedit-getnbsp-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutrules-getnbsp-openapi.md
-- name: Reddit Get Subreddit About Traffic
+- name: Reddit
   x-api-slug: reddit
-  description: Get the traffic for the current subreddit
+  description: the-reddit-api-allows-you-to-access-the-user-submitted-and-rated-stories-on-reddit-com--it-also-provides-advanced-functionality-including-user-account-information-and-subreddit-moderation-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
   humanURL: http://www.reddit.com
-  baseURL: https://www.reddit.com////r/subreddit/about/traffic
-  tags: Subreddit, About, Traffic
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlog-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlocation-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutlocation-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutwhere-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutwhere-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditabout-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditabout-getnbsp-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutedit-getnbsp-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutedit-getnbsp-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutrules-getnbsp-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditabouttraffic-getnbsp-openapi.md
 - name: Reddit
@@ -103,7 +199,99 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/openapi.md
+- name: Reddit Get Best (stream)
+  x-api-slug: reddit-get-best-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: About
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/openapi.md
+- name: Reddit Get New Subreddits (stream)
+  x-api-slug: reddit-get-new-subreddits-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: About
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/openapi.md
+- name: Reddit Get Search Reddit Names (stream)
+  x-api-slug: reddit-get-search-reddit-names-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: About
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/openapi.md
+- name: Reddit Get Subreddit Hot (stream)
+  x-api-slug: reddit-get-subreddit-hot-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: About
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/openapi.md
+- name: Reddit Get Subreddit New (stream)
+  x-api-slug: reddit-get-subreddit-new-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: About
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/openapi.md
+- name: Reddit Get Subreddit Rising (stream)
+  x-api-slug: reddit-get-subreddit-rising-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: About
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/openapi.md
+- name: Reddit Get Subreddits Search (stream)
+  x-api-slug: reddit-get-subreddits-search-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: About
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/openapi.md
+- name: Reddit Get Subreddits Where (stream)
+  x-api-slug: reddit-get-subreddits-where-stream
+  description: Reddit is a community of millions of users engaging in the creation
+    of content and the sharing of conversation across tens of thousands of topics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https:///
+  tags: About
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://rebilly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://reddit.stack.network
 - type: x-authentication
   url: https://github.com/reddit/reddit/wiki/OAuth2
 - type: x-base
