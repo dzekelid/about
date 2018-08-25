@@ -8,14 +8,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-
 x-kinRank: "7"
 x-alexaRank: "2170360"
 tags: About
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/vinli/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Vinli
-  x-api-slug: vinli
-  description: todo-add-description
+- name: Vinli - Get Info about a DTC
+  x-api-slug: codes-get
+  description: Get info about a dtc.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
   humanURL: http://vinli.com
   baseURL: https://events.vin.li//api/v1
@@ -25,18 +25,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/vinli/codes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/vinli/codes-get-openapi.md
-- name: Vinli
-  x-api-slug: vinli
-  description: Vinli - The easiest, most advanced connected-car system in the world.
-    Vinli is a platform for easily and quickly building connected car apps. Apps get
-    vehicle data through Vinli services.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
-  humanURL: http://vinli.com
-  baseURL: https://events.vin.li//api/v1
-  tags: About
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/vinli/openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.vin.li/rss/

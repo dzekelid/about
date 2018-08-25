@@ -8,14 +8,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123co
 x-kinRank: "7"
 x-alexaRank: "24419"
 tags: About
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/123formbuilder/apis.md
 specificationVersion: "0.14"
 apis:
-- name: 123FormBuilder
-  x-api-slug: 123formbuilder
-  description: ""
+- name: ' - Get info about master user and subusers'
+  x-api-slug: users-get
+  description: Get info about master user and subusers
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg
   humanURL: http://www.123formbuilder.com
   baseURL: https://api.123contactform.com//v2
@@ -26,18 +26,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/123formbuilder/users-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/123formbuilder/users-get-openapi.md
-- name: 123FormBuilder
-  x-api-slug: 123formbuilder
-  description: Create free web forms for your website within minutes, build complex
-    workflows, sell online and more. With the simple drag & drop interface, building
-    an online form, survey, poll or quiz is a breeze. Sign up for free to get started!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg
-  humanURL: http://www.123formbuilder.com
-  baseURL: https://api.123contactform.com//v2
-  tags: About
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/123formbuilder/openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/123contactform.json

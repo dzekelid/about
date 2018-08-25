@@ -10,14 +10,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: About
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/google-drive/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Drive
-  x-api-slug: google-drive
-  description: manages-files-in-drive-including-uploading-downloading-searching-detecting-changes-and-updating-sharing-permissions-
+- name: Google Drive - Get About
+  x-api-slug: about-get
+  description: Gets information about the user, the user's Drive, and system capabilities.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png
   humanURL: https://developers.google.com/drive/
   baseURL: https://www.googleapis.com//drive/v3
@@ -28,20 +28,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/google-drive/about-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/google-drive/about-get-openapi.md
-- name: Google Drive
-  x-api-slug: google-drive
-  description: Google Drive is a file storage and synchronization service operated
-    by Google. It allows users to store files in the cloud, synchronize files across
-    devices, and share files. Google Drive encompasses Google Docs, Sheets and Slides,
-    an office suite that permits collaborative editing of documents, spreadsheets,
-    presentations, drawings, forms, and more.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png
-  humanURL: https://developers.google.com/drive/
-  baseURL: https://www.googleapis.com//drive/v3
-  tags: About
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/google-drive/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.doubleclick.api.gallery.streamdata.io

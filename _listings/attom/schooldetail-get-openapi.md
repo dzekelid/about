@@ -4,9 +4,9 @@ x-collection-name: ATTOM
 x-complete: 0
 info:
   title: Attom Data Solutions API Return details about a particular school.
-  version: 1.0.0
   description: Search by school ID to return all of the available details about a
     school
+  version: 1.0.0
 host: search.onboard-apis.com
 basePath: /communityapi/v2.0.0
 schemes:
