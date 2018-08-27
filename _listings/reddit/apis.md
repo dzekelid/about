@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddi
 x-kinRank: "9"
 x-alexaRank: "6"
 tags: About
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
 apis:
@@ -82,6 +82,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutedit-getnbsp-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutedit-getnbsp-openapi.md
+- name: Reddit - Get Subreddit About Rules
+  x-api-slug: rsubredditaboutrules-getnbsp
+  description: Get the rules for the current subreddit
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditaboutrules-getnbsp-openapi.md
+- name: Reddit - Get Subreddit About Traffic
+  x-api-slug: rsubredditabouttraffic-getnbsp
+  description: Get the traffic for the current subreddit
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg
+  humanURL: http://www.reddit.com
+  baseURL: https://www.reddit.com//
+  tags: Social, Social, My API Stack, Links, Stack Network, Stack, Media, internet,
+    Mobile, Technology, SDIO Syndication, General Data, Pedestal, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/about/master/_listings/reddit/rsubredditabouttraffic-getnbsp-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://rebilly.api.gallery.streamdata.io
